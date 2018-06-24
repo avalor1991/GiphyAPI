@@ -9,7 +9,7 @@
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-#show-input {
+#show-form {
 	margin: 0 auto;
 	text-align: center;
 	font-family: "Carrois Gothic SC", sans-serif;
@@ -30,4 +30,10 @@ h1{
 	display: inline;
 	flex-wrap: wrap;
 
+}
+.col-md-4{
+	float: left;
+}
+#addShow{
+	margin: 20px;
 }

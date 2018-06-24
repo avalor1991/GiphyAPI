@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var topics = ["The Expanse","Colony","Elementary","Breaking Bad","Billions","Taboo","Game of Thrones"];
+    var topics = ["The Expanse","Colony","Elementary","Breaking Bad","Billions","Taboo","Game of Thrones","Vikings","12 Monkeys","Narcos"];
 
 function showButtons(){
 $("#showButtons").empty();
