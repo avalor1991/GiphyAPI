@@ -1,0 +1,33 @@
+.gif{
+        padding: 2px;
+        width: 80%;
+    } 
+
+#show {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#show-input {
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Carrois Gothic SC", sans-serif;
+}
+#shows {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+h6{
+    float: right;
+}
+h1{
+    float: left;
+}
+#shows{
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+
+}

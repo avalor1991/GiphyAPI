@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GIPHY API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1>TV Shows</h1>
+                <h6>Click the buttons to display GIPHYs of your favorite TV Shows<br>Click the GIPHYs to pause and play<br>Search to add more buttons!</h6>
+        </div>
+    </div>    
+<form class ="form-inline" id ="show-form">
+<div class="form-group">
+    <label for = "show-input">Search for a TV Show</label>
+    <input type="text" id="show-input">
+</div>
+    <input id ="addShow" class="btn btn-warning" type = "submit" value ="submit">
+</form>
+    <div class="row">
+        <div class="container">
+            <div class="btn-group inline pull-left">
+                <div id ="showButtons"></div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="row">
+    <div class="container">
+        <span><div id ="shows">
+                      </div>
+        </div></span>
+    </div>
+</div>    
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+<script src="java.js"></script>
+</body>
+</html>
